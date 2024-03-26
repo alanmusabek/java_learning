@@ -57,5 +57,15 @@ public class Variables {
         // You can think of \n as the escape sequence for “newline”.
         String name = "John";
         System.out.println(name);
+
+        /* Static checking */
+        // The Java programming languages has static typing.https://www.codecademy.com/resources/docs/java/data-types?page_ref=catalog
+        // Java program will not compile if a variable is assigned a value of incorrect type.
+        // This is a bug, specifically a type declaration bug.
+        
+        // The program will not compile if the declared type of the variable does not match the type of the assigned value:
+        // int greeting = "Hello World";
+        // Java’s static typing helps programmers avoid runtime errors, and thus have much safer code that is free from bugs. 
+
     }
 }
